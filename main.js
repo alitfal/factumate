@@ -3,6 +3,8 @@ const path = require('path');
 const { procesarPDF } = require('./procesar_factura');
 
 function createWindow() {
+  const isDev = !app.isPackaged;
+
   const win = new BrowserWindow({
     width: 1000,
     height: 700,
@@ -13,8 +15,14 @@ function createWindow() {
     }
   });
 
-  win.loadURL('http://localhost:3000');
+  if (isDev) {
+    const reactPort = process.env.REACT_PORT || 3000;
+    win.loadURL(`http://localhost:${reactPort}`);
+  } else {
+    win.loadFile(path.join(__dirname, 'build', 'index.html'));
+  }
 }
+
 
 app.whenReady().then(createWindow);
 

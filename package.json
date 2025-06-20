@@ -1,18 +1,25 @@
 {
   "name": "factumate",
+  "productName": "FactuMate",
   "version": "1.0.0",
   "main": "main.js",
+  "homepage": "./",
+
   "scripts": {
-    "start": "concurrently \"npm:electron\" \"npm:react\"",
+    "start": "electron-forge start",
     "react": "react-scripts start",
-    "electron": "wait-on http://localhost:3000 && electron ."
+    "electron": "wait-on http://localhost:3000 && electron .",
+    "build": "react-scripts build",
+    "package": "electron-forge package",
+    "package-app": "npm run build && npm run make",
+    "make": "electron-forge make"
   },
   "dependencies": {
     "@emotion/react": "^11.14.0",
     "@emotion/styled": "^11.14.0",
     "@mui/icons-material": "^5.17.1",
     "@mui/material": "^5.17.1",
-    "electron": "^29.0.0",
+    "electron-squirrel-startup": "^1.0.1",
     "pdf-parse": "^1.1.1",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
@@ -20,7 +27,16 @@
     "xlsx": "^0.18.5"
   },
   "devDependencies": {
+    "@electron-forge/cli": "^7.8.1",
+    "@electron-forge/maker-deb": "^7.8.1",
+    "@electron-forge/maker-rpm": "^7.8.1",
+    "@electron-forge/maker-squirrel": "^7.8.1",
+    "@electron-forge/maker-zip": "^7.8.1",
+    "@electron-forge/plugin-auto-unpack-natives": "^7.8.1",
+    "@electron-forge/plugin-fuses": "^7.8.1",
+    "@electron/fuses": "^1.8.0",
     "concurrently": "^8.0.0",
+    "electron": "^29.4.6",
     "wait-on": "^7.0.0"
   },
   "browserslist": {
