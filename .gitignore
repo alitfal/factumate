@@ -1,0 +1,22 @@
+# Node modules
+node_modules/
+.env
+
+# Build outputs
+/dist
+/build
+
+# Mac/Windows system files
+.DS_Store
+Thumbs.db
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# VS Code
+.vscode/
+
+# Excel generado
+factura_actualizada.xlsx
