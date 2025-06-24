@@ -9,7 +9,7 @@
 * Interfaz moderna con soporte para tema claro/oscuro.
 * Subida de archivos PDF locales.
 * Extracción automática de campos como número de factura, fechas, CUPS, importe, bono social.
-* Generación de archivo Excel dinámico sin necesidad de plantilla, o basado en plantilla (opcional).
+* Generación de archivo Excel dinámico sin necesidad de plantilla.
 * Compatible con **macOS**, **Windows** y **Linux**.
 * Funciona como app de escritorio (Electron) o en modo demo (navegador).
 
@@ -22,7 +22,6 @@ factumate/
 ├── main.js                 # Lógica principal de Electron
 ├── preload.js              # Exposición segura de API a React
 ├── procesar_factura.js     # Extracción y generación Excel
-├── plantilla.xlsx          # (Opcional) Plantilla base
 ├── public/
 │   └── index.html
 └── src/
@@ -36,7 +35,6 @@ factumate/
 
 * Node.js ≥ 18
 * Git
-* (Opcional) Tener un archivo `plantilla.xlsx` con una hoja llamada `0003` si quieres usar la versión con plantilla.
 
 ---
 
