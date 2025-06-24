@@ -4,12 +4,12 @@ import {
   Button, Switch, FormControlLabel, Box, Paper, Divider, Fade
 } from '@mui/material';
 import { Brightness4, Brightness7, PictureAsPdf } from '@mui/icons-material';
-import InsertDriveFileIcon from '@mui/icons-material/InsertDriveFile';
 
 function App() {
   const prefersDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches;
   const [mode, setMode] = useState(prefersDarkMode ? 'dark' : 'light');
   const isElectron = typeof window !== 'undefined' && !!window.electronAPI;
+
   const theme = useMemo(() => createTheme({
     palette: { mode },
     typography: {
@@ -34,7 +34,7 @@ function App() {
 
   const handleSelectPDF = async () => {
     if (!isElectron) {
-      alert("Simulación: subirías un PDF (solo disponible en la app de escritorio).")
+      alert("Simulación: subirías un PDF (solo disponible en la app de escritorio).");
       return;
     }
     const filePath = await window.electronAPI.seleccionarPDF();
@@ -57,7 +57,12 @@ function App() {
               />
             </Box>
             <Container maxWidth="sm" sx={{ textAlign: 'center' }}>
-              <InsertDriveFileIcon sx={{ fontSize: 60, color: 'primary.main', mb: 1 }} />
+              <Box
+                component="img"
+                src="LogoFactuMate.png"
+                alt="FactuMate logo"
+                sx={{ width: 100, mb: 1 }}
+              />
               <Typography variant="h4" gutterBottom>FactuMate</Typography>
               <Typography variant="subtitle1" gutterBottom>
                 Extrae datos de facturas PDF y genera Excel automáticamente
