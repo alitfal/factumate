@@ -4,7 +4,6 @@
   "version": "1.0.0",
   "main": "main.js",
   "homepage": "./",
-
   "scripts": {
     "start": "electron-forge start",
     "react": "react-scripts start",
@@ -20,7 +19,7 @@
     "@mui/icons-material": "^5.17.1",
     "@mui/material": "^5.17.1",
     "electron-squirrel-startup": "^1.0.1",
-    "pdf-parse": "^1.1.1",
+    "pdf2json": "^3.1.6",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
     "react-scripts": "^5.0.1",

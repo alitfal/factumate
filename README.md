@@ -6,11 +6,12 @@
 
 ## 🚀 Características
 
-* Interfaz moderna con soporte para tema claro/oscuro
-* Subida de archivos PDF locales
-* Extracción automática de campos como número de factura, fechas, CUPS, importe, bono social
-* Generación de archivo Excel a partir de una plantilla existente
-* Funciona como app de escritorio (Electron) o en modo demo (navegador)
+* Interfaz moderna con soporte para tema claro/oscuro.
+* Subida de archivos PDF locales.
+* Extracción automática de campos como número de factura, fechas, CUPS, importe, bono social.
+* Generación de archivo Excel dinámico sin necesidad de plantilla, o basado en plantilla (opcional).
+* Compatible con **macOS**, **Windows** y **Linux**.
+* Funciona como app de escritorio (Electron) o en modo demo (navegador).
 
 ---
 
@@ -21,7 +22,7 @@ factumate/
 ├── main.js                 # Lógica principal de Electron
 ├── preload.js              # Exposición segura de API a React
 ├── procesar_factura.js     # Extracción y generación Excel
-├── plantilla.xlsx          # Plantilla base para completar
+├── plantilla.xlsx          # (Opcional) Plantilla base
 ├── public/
 │   └── index.html
 └── src/
@@ -35,7 +36,7 @@ factumate/
 
 * Node.js ≥ 18
 * Git
-* Tener un archivo `plantilla.xlsx` con una hoja llamada `0003`
+* (Opcional) Tener un archivo `plantilla.xlsx` con una hoja llamada `0003` si quieres usar la versión con plantilla.
 
 ---
 
@@ -55,14 +56,14 @@ npm install
 ## ▶️ Ejecución del proyecto
 
 ```bash
-# Ejecuta en puerto 3001
+# Ejecuta React + Electron
 REACT_PORT=3001 PORT=3001 npm start
 ```
 
 Esto iniciará:
 
 * React en `localhost:3001`
-* Una ventana de Electron que carga esa interfaz
+* Una ventana de Electron que carga esa interfaz.
 
 ---
 
@@ -70,38 +71,42 @@ Esto iniciará:
 
 También puedes abrir `http://localhost:3001` directamente en tu navegador:
 
-* El botón mostrará una alerta simulada
-* No se podrá procesar PDFs, pero puedes ver la interfaz
+* El botón mostrará una alerta simulada.
+* No se podrá procesar PDFs, pero puedes probar la interfaz.
 
 ---
 
 ## 🧾 Exportación Excel
 
-Los datos extraídos del PDF se insertan en la plantilla `plantilla.xlsx` en la fila 3, y se guarda un nuevo archivo `factura_actualizada.xlsx` en la raíz del proyecto.
+* Los datos extraídos se exportan en un archivo `factura_actualizada.xlsx` en el escritorio.
+* Archivos de depuración (`factura_debug_texto.txt`, `factumate_log.txt`) se guardan en:
+  * macOS: `~/Library/Application Support/FactuMate/txt`
+  * Windows: `C:\Users\TU_USUARIO\AppData\Roaming\FactuMate\txt`
+  * Linux: `~/.config/FactuMate/txt`
 
 ---
 
 ## 🛡 Seguridad
 
-Esta app funciona localmente, sin conexión a Internet ni carga de archivos externos. No se transmiten datos a servidores.
+Esta app funciona **localmente**, sin conexión a Internet ni carga de archivos externos. No se transmiten datos a servidores.
 
 ---
 
 ## 📌 Futuras mejoras
 
-* Vista previa del PDF
-* Modo multi-factura (procesamiento por lotes)
-* Carga manual de archivo en modo navegador
-* Configuración editable de campos
+* Vista previa del PDF.
+* Procesamiento por lotes (multi-factura).
+* Carga manual de archivos en modo navegador.
+* Configuración editable de campos y salidas.
 
 ---
 
 ## 📃 Licencia
 
-Este proyecto está licenciado bajo MIT.
+Este proyecto está licenciado bajo **MIT**.
 
 ---
 
 ## 🤝 Autor
 
-Desarrollado por \[alitfal].
+Desarrollado por [alitfal].
