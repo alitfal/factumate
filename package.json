@@ -49,5 +49,34 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "config": {
+    "forge": {
+      "makers": [
+        {
+          "name": "@electron-forge/maker-squirrel",
+          "config": {
+            "iconUrl": "assets/FactuMate.ico",
+            "setupIcon": "assets/FactuMate.ico"
+          }
+        },
+        {
+          "name": "@electron-forge/maker-zip",
+          "platforms": ["darwin"]
+        },
+        {
+          "name": "@electron-forge/maker-deb",
+          "config": {
+            "icon": "assets/FactuMate.png"
+          }
+        },
+        {
+          "name": "@electron-forge/maker-rpm",
+          "config": {
+            "icon": "assets/FactuMate.png"
+          }
+        }
+      ]
+    }
   }
 }

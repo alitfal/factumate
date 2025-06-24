@@ -8,6 +8,7 @@ function createWindow() {
   const win = new BrowserWindow({
     width: 1000,
     height: 700,
+    icon: path.join(__dirname, 'assets', 'FactuMate.icns'), // O .ico para Windows
     webPreferences: {
       preload: path.join(__dirname, 'preload.js'),
       contextIsolation: true,
@@ -22,7 +23,6 @@ function createWindow() {
     win.loadFile(path.join(__dirname, 'build', 'index.html'));
   }
 }
-
 
 app.whenReady().then(createWindow);
 
