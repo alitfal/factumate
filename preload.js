@@ -1,6 +1,6 @@
 const { contextBridge, ipcRenderer } = require('electron');
 
 contextBridge.exposeInMainWorld('electronAPI', {
-  seleccionarPDF: () => ipcRenderer.invoke('seleccionar-pdf'),
-  procesarPDF: (path) => ipcRenderer.invoke('procesar-pdf', path)
+  seleccionarPDFs: () => ipcRenderer.invoke('seleccionar-pdfs'),
+  procesarMultiplesPDF: (paths) => ipcRenderer.invoke('procesar-multiples-pdf', paths)
 });

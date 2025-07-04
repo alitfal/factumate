@@ -1,0 +1,282 @@
+AB10O220-2-10/01/25 N0000254ANNNN
+RESUMEN DE LA FACTURA
+Fecha Factura:
+03 de enero de 2025
+Periodo facturación:
+01/12/2024 al 31/12/2024
+Factura nº:
+N25CON000000100
+Total Factura       299.320,58 €
+Datos del Cliente
+Razón Social:
+CONSEJO INSULAR DE AGUAS DE GRAN CANAR
+NIF/CIF:
+Q8555009C
+Dir.Fiscal:
+AV JUAN XXIII 002 1 35004 LAS PALMAS DE GRAN
+ CANARIA LAS PALMAS
+Dir.Suministro:
+PS MIRAMAR PRIDESA POTABILIZADO, 35414 EL
+ PUERTILLO, LAS PALMAS
+CUPS:
+ES0031607513405001XK0F
+Modalidad de Contrato:
+6.1TD
+CONSEJO INSULAR DE AGUAS DE GRAN CANARIA
+AV JUAN XXIII 002 1
+35004 LAS PALMAS DE GRAN CANARIA
+LAS PALMAS
+Datos de Pago
+El pago del importe de la factura debe realizarse antes del
+04/03/2025 a través de una transferencia a n/c.c.
+Factura emitida en Madrid por Endesa Energía, S.A. Unipersonal. Inscrita en el Registro
+Mercantil de Madrid. Tomo 12.797, Libro 0, Folio 208, Sección 8ª, Hoja M-205.381, CIF
+A81948077.
+Domicilio Social: C/ Ribera del Loira, 60 - 28042 Madrid.
+Registro Administrativo de Distribuidores, Comercializadores y
+Consumidores Cualificados. Actividad de Comercialización n.º 1. Sección
+Segunda.
+Nota:
+OFICINA CONTABLE: LA0000164
+ÓRGANO GESTOR: LA0000164
+UNIDAD TRAMITADORA: LA0000164
+Contrato nº: 83008378384
+Atención al Cliente
+900857900
+Unidad de Atención de Reclamaciones
+C/ Ribera del Loira 60 28042 Madrid
+atencionalcliente@endesaonline.com
+Teléfono de Averías
+900 85 58 85
+WWW.ENDESACLIENTES.COM
+Pagina 1 de 4
+Facturación
+CONCEPTO
+CÁLCULO
+IMPORTE
+Financiación Bono Social
+31  días x 0,006282  Eur/día
+0,19
+Término de Energía Variable
+282.776,28
+P2: 426.384,000  kWh x 0,245242  Eur/kWh = 104.567,26  Eur
+P3: 335.027,000  kWh x 0,145042  Eur/kWh = 48.592,99  Eur
+P6: 1.041.536,000  kWh x 0,124447  Eur/kWh = 129.616,03  Eur
+Fact. Potencia Contratada
+14.266,08
+P1: 2.700,000  kW x 24,414407  Eur/kW = 65.918,90  Eur
+P2: 2.700,000  kW x 14,692911  Eur/kW = 39.670,86  Eur
+P3: 2.700,000  kW x 11,328635  Eur/kW = 30.587,31  Eur
+P4: 2.700,000  kW x 9,250764  Eur/kW = 24.977,06  Eur
+P5: 2.700,000  kW x 1,727525  Eur/kW = 4.664,32  Eur
+P6: 2.700,000  kW x 0,967900  Eur/kW = 2.613,33  Eur
+168.431,78  Eur X 31  DIAS/ 366  dias
+Impuesto sobre la Electricidad
+5,1126963  % sobre 297.042,55 Eur
+15.186,88
+Reducción ISE
+85  % BASE ISE: - 252.486,17  Eur x 5,1126963  %
+-12.908,85
+IGIC reducido
+0 % sobre 299.320,58 EUR
+0,00
+Total Factura
+299.320,58 EUR
+04/03/2025
+81948077-020
+10218165188
+600000
+299320.58
+9050794
+9050781948077020102181651886260000000299320580
+LUGAR DE PAGO :
+Cualquier oficina o cajero automático de Santander, Bankia, Cajas Rurales Adheridas y Cajasur. Oficinas de Bankinter y Correos (coste pago en efectivo Correos 0,85 € ).Estancos Adheridos (coste pago en efectivo estancos 0,70 € ).  
+Cajeros Servicaixa y BBVA. Mediante tarjeta llamando al teléfono de Atención al Cliente identificándose con su NIF o por nuestra página WEB: www.endesaclientes.com/pago.html?t=A2025A02H02D03F00E46&p=02&l=E
+Emis.
+Referencia
+Identific.
+Importe €
+Para Pagar esta Factura
+AHEEEHAPGCLIFIPIAFPDHBLLJCMGGPAHEEEHA
+BNFFFNBPAPJOIDBLFDNLMOFGEDBGAPBNFFFNB
+APILGPFHANNHFIHEGKIIGMIEANFBNGDFBFOKG
+KKCECFFEHPEFKKNJEEOPGDGJEPMIJGGGILOIP
+APIEOOFACAKDBKGPJMFDJMFEELFAFLHLLEAND
+GCHDMCFOIPFNBEKAEDFHPEFBFLLJKAHELDGBP
+MEODHFFNDNDPOCJMGIIIGOLIKLEIHJGKLEEMC
+MNFNFFEHJHEDAIKJEMKOGDGBGJPPAHFHACGPD
+APBBBPAPHDHGHHGPJMGLJKHBGJCIEABBGNGGD
+HHHHHHHPHPPHHHHHHHHHHHPPHPHHPPHPPPPHH
+AHEEEHAPFLKJPOBIBMJFBICCPEKPPPAHEEEHA
+BNFFFNBPJLEHMKBCMKJPIHMPAHFPJPBNFFFNB
+GNAPPOFAMMEMDGJNPDOOAFBNGLDIEPNDPMHLA
+JMENKMFCBENEMMKANNIJAKPACJKBAOAAOCHBJ
+OFLJHLFAGJHOJMAGAFDFPFMNCNDJMCBNNNLEF
+EHJKEKFIOFNMHBMJNKDBJNMIDNNADJBCNKPII
+CGLOGIFOKECBGEPFPBOOAHCBMNCANAAPMNNFE
+MNFFNNEHJNNCGNPANFMIAKPIAPJOAHFHALPGF
+APBBBPAPNCOKFJMGAFANPDOIAPEBFBHHAEPPF
+HHHHHHHPHHHHHHHPPPHHHPHHHPHPHHHPPHHPH
+Deuda a
+ Para pagar esta deuda :
+ 1.099.350,54
+ €
+ 02/02/2025
+ :
+8194807-702
+0100020158272
+540000
+1099350.54
+  Emis.
+Referencia
+  Identific.
+Importe € 
+
+Incluido en el importe facturado está el coste del peaje de transporte y distribución, que ha sido de 19.509,66 € (11.833,63 € potencia, 7.676,03 € por energía
+activa y 0 € energía reactiva), y de los cargos, que ha sido de 9.526,09 € (2.432,45 € potencia, 7.093,64 € por energía activa). Los precios de peajes de
+transporte y distribución han sido publicados en la Resolución de 21 de diciembre de 2023 de la CNMC (BOE 25-12-2023) y los de los cargos en la Orden
+TED/113/2024 de 9 de febrero (BOE 14-02-2024).
+Pagina 2 de 4
+
+AB10O220-2-10/01/25 S0000255ANNNN
+Pagina 3 de 4
+Pagina 3 de 4
+Pagina 3 de 4
+
+Razón Social:
+CONSEJO INSULAR DE AGUAS DE GR
+NIF/CIF:
+Q8555009C
+Dir.Suministro:
+PS MIRAMAR PRIDESA POTABILIZADO
+ 35414 EL PUERTILLO
+Contrato nº:
+83008378384
+Fecha Factura:
+03 de enero de 2025
+Periodo facturación:
+del 01/12/2024 al 31/12/2024
+Consumos y Curva horaria
+Consumos totales por días (kWh)
+Curva horaria de potencia (kW)
+Desglose de Consumos
+Origen de la medida:
+REAL
+Modalidad de la tarifa de acceso:
+6.1TD
+Tipo de Punto de Medida:
+02
+Energía Activa
+Energía Reactiva (kVArh)
+Potencia kW
+Consumo kWh
+Consumos (*)
+Excesos
+(1) Cos
+(2) Importe
+Contratada
+Max.Reg.
+Kp
+Te
+Excesos
+(3) Importe
+Periodo 1
+0,00
+0,00
+0,00
+0,00
+0,00
+2.700,000
+0,000
+1,000000
+3,5667
+0,000
+0,00
+Periodo 2
+426.384,00
+78.206,00
+0,00
+0,00
+0,00
+2.700,000
+2.632,000
+0,620828
+3,5667
+0,000
+0,00
+Periodo 3
+335.027,00
+61.480,00
+0,00
+0,00
+0,00
+2.700,000
+2.612,000
+0,482845
+3,5667
+0,000
+0,00
+Periodo 4
+0,00
+0,00
+0,00
+0,00
+0,00
+2.700,000
+0,000
+0,381770
+3,5667
+0,000
+0,00
+Periodo 5
+0,00
+0,00
+0,00
+0,00
+0,00
+2.700,000
+0,000
+0,015816
+3,5667
+0,000
+0,00
+Periodo 6
+Capacitiva
+1.041.536,00
+0,00
+0,00
+0,00
+ 0,00
+2.700,000
+2.576,000
+0,015816
+3,5667
+0,000
+0,00
+Total
+0,00
+Total
+0,00
+Definición de los periodos (P1 a P6) según art.7 de la Circular 3/2020 de la CNMC por la que se establece la metodología para el cálculo de los peajes de transporte y
+distribución de electricidad.
+Los valores en euros no incluyen los impuestos correspondientes (IE e IVA/IGIC/IPSI).
+Precios de energía reactiva inductiva, energía reactiva capacitiva y excesos de potencia según Resolución de 18 de marzo de 2021, de la Comisión Nacional de los Mercados
+y la Competencia.
+(1) El precio kVArh inductivo facturado en cada uno de los periodos dependerá del cálculo del cos
+de forma que:
+cos
+>= 0,95 el precio será 0,00000000 €/KVArh
+0,80 <= cos
+< 0,95 el precio será 0,04155400 €/KVArh
+cos
+< 0,80 el precio será 0,06233200 €/KVArh
+Se factura el consumo de reactiva inductiva que exceda del 33% del consumo de activa para cada periodo. No se aplica sobre el último periodo
+(periodo 6 en tarifa 6.XTD).
+(2) El precio kVArh capacitivo facturado fuera del rango (cos
+no superior a 0,98 en el periodo 6) es de 0,00 €/kVArh por cada periodo horario.
+(3) Para mayor detalle sobre los excesos de potencia, analizar la curva cuartohoraria disponible en
+ www.endesaclientes.com.
+(*) De P1 a P5 se muestra la diferencia entre consumos de reactiva inductiva y capacitiva, siendo 0 este valor si el resultado obtenido es negativo (consumo
+capacitiva>consumo inductiva). En P6 se muestra la diferencia entre los consumos de reactiva capacitiva e inductiva, siendo 0 este valor si el resultado obtenido es negativo
+(consumo inductiva >consumo capacitiva).
+Pagina 4 de 4

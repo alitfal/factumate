@@ -1,6 +1,6 @@
 const { app, BrowserWindow, ipcMain, dialog } = require('electron');
 const path = require('path');
-const { procesarPDF } = require('./procesar_factura');
+const { procesarMultiplesPDFs } = require('./procesar_factura');
 
 function createWindow() {
   const isDev = !app.isPackaged;
@@ -8,7 +8,7 @@ function createWindow() {
   const win = new BrowserWindow({
     width: 1000,
     height: 700,
-    icon: path.join(__dirname, 'assets', 'FactuMate.icns'), // O .ico para Windows
+    icon: path.join(__dirname, 'assets', 'FactuMate.icns'),
     webPreferences: {
       preload: path.join(__dirname, 'preload.js'),
       contextIsolation: true,
@@ -26,15 +26,17 @@ function createWindow() {
 
 app.whenReady().then(createWindow);
 
-ipcMain.handle('seleccionar-pdf', async () => {
+// Solo selección múltiple de PDFs
+ipcMain.handle('seleccionar-pdfs', async () => {
   const result = await dialog.showOpenDialog({
-    properties: ['openFile'],
+    properties: ['openFile', 'multiSelections'],
     filters: [{ name: 'PDF', extensions: ['pdf'] }]
   });
-  return result.filePaths[0];
+  return result.filePaths;
 });
 
-ipcMain.handle('procesar-pdf', async (event, pdfPath) => {
-  const outputPath = await procesarPDF(pdfPath);
+// Procesar múltiples PDFs
+ipcMain.handle('procesar-multiples-pdf', async (event, pdfPaths) => {
+  const outputPath = await procesarMultiplesPDFs(pdfPaths);
   return outputPath;
 });

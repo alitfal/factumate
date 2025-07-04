@@ -1,0 +1,55 @@
+--- Procesando desde .txt: /Users/macpro/Library/Application Support/FactuMate/txt/factura_debug_texto.txt ---
+CAMPO: Factura Fiscal
+REGEX: /Factura (?:n\u00ba|nº|n\u00b0|n°):\s*([A-Z0-9]+)/
+VALOR: N25CON000000100
+---
+CAMPO: Fecha Emision
+REGEX: /Fecha Factura:\s*([\w\s]+\d{4})/
+VALOR: 03 de enero de 2025
+---
+CAMPO: Fec Desde
+REGEX: /Periodo facturaci[oó]n:\s*\n*(\d{1,2}\/\d{1,2}\/\d{4})/
+VALOR: 01/12/2024
+---
+CAMPO: Fec Hasta
+REGEX: /al\s*\n*(\d{1,2}\/\d{1,2}\/\d{4})/
+VALOR: 31/12/2024
+---
+CAMPO: CUPS
+REGEX: /CUPS:\s*([A-Z0-9]+)/
+VALOR: ES0031607513405001XK0F
+---
+CAMPO: Importe Final
+REGEX: /Total Factura.*?([0-9.,]+)\s*€/i
+VALOR: 299320.58
+---
+PERIODO 1: EA=0,00, ER=0,00, PER=0,00, PotCont=2.700,000, PotDem=0,000
+PERIODO 2: EA=426.384,00, ER=78.206,00, PER=0,00, PotCont=2.700,000, PotDem=2.632,000
+PERIODO 3: EA=335.027,00, ER=61.480,00, PER=0,00, PotCont=2.700,000, PotDem=2.612,000
+PERIODO 4: EA=0,00, ER=0,00, PER=0,00, PotCont=2.700,000, PotDem=0,000
+PERIODO 5: EA=0,00, ER=0,00, PER=0,00, PotCont=2.700,000, PotDem=0,000
+PERIODO 6: EA=1.041.536,00, ER=0,00, PER=0,00, PotCont=2.700,000, PotDem=2.576,000
+CAMPO: PEA P2
+REGEX: /P2:\s*[0-9.,]+\s*kWh\s*x\s*([0-9.,]+)\s*Eur\/kWh/i
+VALOR: 0.245242
+---
+CAMPO: PEA P3
+REGEX: /P3:\s*[0-9.,]+\s*kWh\s*x\s*([0-9.,]+)\s*Eur\/kWh/i
+VALOR: 0.145042
+---
+CAMPO: PEA P6
+REGEX: /P6:\s*[0-9.,]+\s*kWh\s*x\s*([0-9.,]+)\s*Eur\/kWh/i
+VALOR: 0.124447
+---
+CAMPO: Tot Imp React
+REGEX: /Fact\\. Energ[ií]a Reactiva\\s*([0-9.,]+)/i
+VALOR: (no encontrado)
+---
+CAMPO: Tot Imp Tpot
+REGEX: /Fact\\. Potencia Contratada\\s*([0-9.,]+)/i
+VALOR: (no encontrado)
+---
+CAMPO: Tot Imp Energ
+REGEX: /T[eé]rmino de Energ[ií]a Variable\\s*([0-9.,]+)/i
+VALOR: (no encontrado)
+---
